@@ -85,8 +85,8 @@ def otp():
     if request.method == 'POST':
         num = random.randint(1111, 9999)
         print(num)
-        bot = telepot.Bot('5604485306:AAFGv1JwuxcV--KESSs6GQwmpqSwA2OUQaw')
-        bot.sendMessage('5750164366', str(num))
+        bot = telepot.Bot('123567899:ABCD123FHOP--AABGGJJSKKKAMNQrsqw')#Telegram API
+        bot.sendMessage('123567893', str(num))#BOT Address
         with open('file.txt', 'w') as f:
             f.write(str(num))
             f.close()
